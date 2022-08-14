@@ -1,0 +1,17 @@
+@media (min-width: 320px) and (max-width: 414px) {
+  /*タイトルのスタイル編集*/
+  h1{
+    font-size: 40px;
+  }
+
+  /*見出しのスタイル編集*/
+  h2{
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+
+  /*リストのスタイル編集*/
+  ul{
+    font-size: 15px;
+  }
+}

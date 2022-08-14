@@ -1,0 +1,920 @@
+@media (min-width: 320px) and (max-width: 414px) {
+  /*タイトルのスタイル編集*/
+  #タイトル{
+    font-size: 45px;
+  }
+
+  /*見出しのスタイル編集*/
+  #見出し{
+    font-size: 18px;
+  }
+
+  /*ボタンのスタイル編集*/
+  #ボタン{
+    font-size: 50px;
+    width: 290px;
+  }
+
+  /*問題１のスタイル編集*/
+  #問題１{
+    font-size: 45px;
+  }
+
+  /*文１のスタイル編集*/
+  #文１{
+    font-size: 18px;
+  }
+
+  /*選択肢１のスタイル編集*/
+  #コーヒー{
+    font-size: 20px;
+    width: 120px;
+  }
+
+  #紅茶{
+    font-size: 20px;
+    width: 120px;
+  }
+
+  /*正解１のスタイル編集*/
+  #正解１{
+    font-size: 45px;
+  }
+
+  /*解説１のスタイル編集*/
+  #解説１{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題１のスタイル編集*/
+  #次の問題１{
+    font-size: 50px;
+    width: 290px;
+  }
+
+  /*残念１のスタイル編集*/
+  #残念１{
+    font-size: 45px;
+  }
+
+  /*解説２のスタイル編集*/
+  #解説２{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題２のスタイル編集*/
+  #次の問題２{
+    font-size: 50px;
+    width: 290px;
+  }
+
+  /*問題２のスタイル編集*/
+  #問題２{
+    font-size: 45px;
+  }
+
+  /*文２のスタイル編集*/
+  #文２{
+    font-size: 18px;
+  }
+
+  /*選択肢２のスタイル編集*/
+  #藤木書店{
+    font-size: 20px;
+    width: 130px;
+  }
+
+  #藤代書店{
+    font-size: 20px;
+    width: 130px;
+  }
+
+  /*選択肢３のスタイル編集*/
+  #小糸書店{
+    font-size: 20px;
+    width: 130px;
+  }
+
+  #藤森書店{
+    font-size: 20px;
+    width: 130px;
+  }
+
+  /*正解２のスタイル編集*/
+  #正解２{
+    font-size: 45px;
+  }
+
+  /*写真１のスタイル編集*/
+  #写真１{
+    width: 280px;
+  height: 300px;
+  }
+
+  /*解説３のスタイル編集*/
+  #解説３{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題３のスタイル編集*/
+  #次の問題３{
+    font-size: 50px;
+    width: 290px;
+    margin: 30px auto;
+  }
+
+  #次の問題３:active{
+    margin-top: 38px;
+  }
+
+  /*残念２のスタイル編集*/
+  #残念２{
+    font-size: 45px;
+  }
+
+  /*写真２のスタイル編集*/
+  #写真２{
+    width: 280px;
+  height: 300px;
+  }
+
+  /*解説４のスタイル編集*/
+  #解説４{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題４のスタイル編集*/
+  #次の問題４{
+    font-size: 50px;
+    width: 290px;
+    margin: 30px auto;
+  }
+
+  #次の問題４:active{
+    margin-top: 38px;
+  }
+
+  /*問題３のスタイル編集*/
+  #問題３{
+    font-size: 45px;
+  }
+
+  /*文３のスタイル編集*/
+  #文３{
+    font-size: 18px;
+  }
+
+  /*選択肢４のスタイル編集*/
+  #近見東高校{
+    font-size: 20px;
+    width: 150px;
+  }
+
+  #遠見束高校{
+    font-size: 20px;
+    width: 150px;
+  }
+
+  /*選択肢５のスタイル編集*/
+  #遠見東高校{
+    font-size: 20px;
+    width: 150px;
+  }
+
+  #遠見西高校{
+    font-size: 20px;
+    width: 150px;
+  }
+
+  /*正解３のスタイル編集*/
+  #正解３{
+    font-size: 45px;
+  }
+
+  /*写真３のスタイル編集*/
+  #写真３{
+    width: 340px;
+  height: 260px;
+  }
+
+  /*解説５のスタイル編集*/
+  #解説５{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題５のスタイル編集*/
+  #次の問題５{
+    font-size: 50px;
+    width: 290px;
+  }
+
+  /*残念３のスタイル編集*/
+  #残念３{
+    font-size: 45px;
+  }
+
+  /*写真４のスタイル編集*/
+  #写真４{
+    width: 340px;
+  height: 260px;
+  }
+
+  /*解説６のスタイル編集*/
+  #解説６{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題６のスタイル編集*/
+  #次の問題６{
+    font-size: 50px;
+    width: 290px;
+  }
+
+  /*問題４のスタイル編集*/
+  #問題４{
+    font-size: 45px;
+  }
+
+  /*文４のスタイル編集*/
+  #文４{
+    font-size: 18px;
+  }
+
+  /*選択肢６のスタイル編集*/
+  #赤色{
+    font-size: 20px;
+    width: 100px;
+  }
+
+  #青色{
+    font-size: 20px;
+    width: 100px;
+  }
+
+  /*選択肢７のスタイル編集*/
+  #黄色{
+    font-size: 20px;
+    width: 100px;
+  }
+
+  #深緑色{
+    font-size: 20px;
+    width: 100px;
+  }
+
+  /*正解４のスタイル編集*/
+  #正解４{
+    font-size: 45px;
+  }
+
+  /*写真５のスタイル編集*/
+  #写真５{
+    width: 340px;
+  height: 260px;
+  }
+
+  /*解説７のスタイル編集*/
+  #解説７{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題７のスタイル編集*/
+  #次の問題７{
+    font-size: 50px;
+    width: 290px;
+    margin: 30px auto;
+  }
+
+  #次の問題７:active{
+    margin-top: 38px;
+  }
+
+  /*残念４のスタイル編集*/
+  #残念４{
+    font-size: 45px;
+  }
+
+  /*写真６のスタイル編集*/
+  #写真６{
+    width: 340px;
+  height: 260px;
+  }
+
+  /*解説８のスタイル編集*/
+  #解説８{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題８のスタイル編集*/
+  #次の問題８{
+    font-size: 50px;
+    width: 290px;
+    margin: 30px auto;
+  }
+
+  #次の問題８:active{
+    margin-top: 38px;
+  }
+
+  /*問題５のスタイル編集*/
+  #問題５{
+    font-size: 45px;
+  }
+
+  /*文５のスタイル編集*/
+  #文５{
+    font-size: 18px;
+  }
+
+  /*選択肢８のスタイル編集*/
+  #７月{
+    font-size: 20px;
+    width: 100px;
+  }
+
+  #５月{
+    font-size: 20px;
+    width: 100px;
+  }
+
+  /*選択肢９のスタイル編集*/
+  #２月{
+    font-size: 20px;
+    width: 100px;
+  }
+
+  #９月{
+    font-size: 20px;
+    width: 100px;
+  }
+
+  /*正解５のスタイル編集*/
+  #正解５{
+    font-size: 45px;
+  }
+
+  /*写真７のスタイル編集*/
+  #写真７{
+    width: 330px;
+  height: 310px;
+  }
+
+  /*解説９のスタイル編集*/
+  #解説９{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題９のスタイル編集*/
+  #次の問題９{
+    font-size: 50px;
+    width: 290px;
+    margin: 8px auto;
+  }
+
+  #次の問題９:active{
+    margin-top: 16px;
+  }
+
+  /*残念５のスタイル編集*/
+  #残念５{
+    font-size: 45px;
+  }
+
+  /*写真８のスタイル編集*/
+  #写真８{
+    width: 330px;
+  height: 310px;
+  }
+
+  /*解説１０のスタイル編集*/
+  #解説１０{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題１０のスタイル編集*/
+  #次の問題１０{
+    font-size: 50px;
+    width: 290px;
+    margin: 8px auto;
+  }
+
+  #次の問題１０:active{
+    margin-top: 16px;
+  }
+
+  /*問題６のスタイル編集*/
+  #問題６{
+    font-size: 45px;
+  }
+
+  /*文６のスタイル編集*/
+  #文６{
+    font-size: 18px;
+  }
+
+  /*選択肢１０のスタイル編集*/
+  #雫{
+    font-size: 20px;
+    width: 70px;
+  }
+
+  #零{
+    font-size: 20px;
+    width: 70px;
+  }
+
+  /*選択肢１１のスタイル編集*/
+  #澪{
+    font-size: 20px;
+    width: 70px;
+  }
+
+  #霈{
+    font-size: 20px;
+    width: 70px;
+  }
+
+  /*正解６のスタイル編集*/
+  #正解６{
+    font-size: 45px;
+  }
+
+  /*写真９のスタイル編集*/
+  #写真９{
+    width: 330px;
+  height: 310px;
+  }
+
+  /*解説１１のスタイル編集*/
+  #解説１１{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題１１のスタイル編集*/
+  #次の問題１１{
+    font-size: 50px;
+    width: 290px;
+    margin: 30px auto;
+  }
+
+  #次の問題１１:active{
+    margin-top: 38px;
+  }
+
+  /*残念６のスタイル編集*/
+  #残念６{
+    font-size: 45px;
+  }
+
+  /*写真１０のスタイル編集*/
+  #写真１０{
+    width: 330px;
+  height: 310px;
+  }
+
+  /*解説１２のスタイル編集*/
+  #解説１２{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題１２のスタイル編集*/
+  #次の問題１２{
+    font-size: 50px;
+    width: 290px;
+    margin: 30px auto;
+  }
+
+  #次の問題１２:active{
+    margin-top: 38px;
+  }
+
+  /*問題７のスタイル編集*/
+  #問題７{
+    font-size: 45px;
+  }
+
+  /*文７のスタイル編集*/
+  #文７{
+    font-size: 18px;
+  }
+
+  /*写真１１のスタイル編集*/
+  #写真１１{
+    width: 330px;
+  height: 310px;
+  }
+
+  /*選択肢１２のスタイル編集*/
+  .選択肢１２{
+    display: block;
+    justify-content: center;
+  }
+
+  #パンダツノウミウシ{
+    font-size: 20px;
+    width: 200px;
+  }
+
+  #ダイアナウミウシ{
+    font-size: 20px;
+    width: 200px;
+  }
+
+  /*選択肢１３のスタイル編集*/
+  .選択肢１３{
+    display: block;
+    justify-content: center;
+  }
+
+  #エリザベスウミウシ{
+    font-size: 20px;
+    width: 200px;
+  }
+
+  #シロウミウシ{
+    font-size: 20px;
+    width: 200px;
+  }
+
+  /*正解７のスタイル編集*/
+  #正解７{
+    font-size: 45px;
+  }
+
+  /*解説１３のスタイル編集*/
+  #解説１３{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題１３のスタイル編集*/
+  #次の問題１３{
+    font-size: 50px;
+    width: 290px;
+  }
+
+  /*残念７のスタイル編集*/
+  #残念７{
+    font-size: 45px;
+  }
+
+  /*解説１４のスタイル編集*/
+  #解説１４{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題１４のスタイル編集*/
+  #次の問題１４{
+    font-size: 50px;
+    width: 290px;
+  }
+
+  /*問題８のスタイル編集*/
+  #問題８{
+    font-size: 45px;
+  }
+
+  /*文８のスタイル編集*/
+  #文８{
+    font-size: 18px;
+  }
+
+  /*選択肢１４のスタイル編集*/
+  #七海燈子{
+    font-size: 20px;
+    width: 150px;
+  }
+
+  #日向朱里{
+    font-size: 20px;
+    width: 150px;
+  }
+
+  /*選択肢１５のスタイル編集*/
+  #堂島卓{
+    font-size: 20px;
+    width: 150px;
+  }
+
+  #市ヶ谷知雪{
+    font-size: 20px;
+    width: 150px;
+  }
+
+  /*正解８のスタイル編集*/
+  #正解８{
+    font-size: 45px;
+  }
+
+  /*写真１２のスタイル編集*/
+  #写真１２{
+    width: 330px;
+  height: 250px;
+  }
+
+  /*解説１５のスタイル編集*/
+  #解説１５{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題１５のスタイル編集*/
+  #次の問題１５{
+    font-size: 50px;
+    width: 290px;
+  }
+
+  /*残念８のスタイル編集*/
+  #残念８{
+    font-size: 45px;
+  }
+
+  /*写真１３のスタイル編集*/
+  #写真１３{
+    width: 330px;
+  height: 250px;
+  }
+
+  /*解説１６のスタイル編集*/
+  #解説１６{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題１６のスタイル編集*/
+  #次の問題１６{
+    font-size: 50px;
+    width: 290px;
+  }
+
+  /*問題９のスタイル編集*/
+  #問題９{
+    font-size: 45px;
+  }
+
+  /*文９のスタイル編集*/
+  #文９{
+    font-size: 18px;
+  }
+
+  /*写真１４のスタイル編集*/
+  #写真１４{
+    width: 330px;
+  height: 310px;
+  }
+
+  /*選択肢１６のスタイル編集*/
+  #ニシキチン{
+    font-size: 20px;
+    width: 330px;
+  }
+
+  #チンニシキ{
+    font-size: 20px;
+    width: 330px;
+  }
+
+  /*正解９のスタイル編集*/
+  #正解９{
+    font-size: 45px;
+  }
+
+  /*解説１７のスタイル編集*/
+  #解説１７{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題１７のスタイル編集*/
+  #次の問題１７{
+    font-size: 50px;
+    width: 290px;
+  }
+
+  /*残念９のスタイル編集*/
+  #残念９{
+    font-size: 45px;
+  }
+
+  /*解説１８のスタイル編集*/
+  #解説１８{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*次の問題１８のスタイル編集*/
+  #次の問題１８{
+    font-size: 50px;
+    width: 290px;
+  }
+
+  /*問題１０のスタイル編集*/
+  #問題１０{
+    font-size: 45px;
+  }
+
+  /*文１０のスタイル編集*/
+  #文１０{
+    font-size: 18px;
+  }
+
+  /*曲のスタイル編集*/
+  #再生{
+    font-size: 30px;
+    width: 100px;
+    margin-right: 10px;
+  }
+
+  /*選択肢１７のスタイル編集*/
+  .選択肢１７{
+    display: block;
+  }
+
+  #素直じゃないんだから{
+    font-size: 20px;
+    width: 250px;
+  }
+
+  #ふたつの吐息{
+    font-size: 20px;
+    width: 250px;
+  }
+
+  /*選択肢１８のスタイル編集*/
+  .選択肢１８{
+    display: block;
+  }
+
+  #そよぐ風と木漏れ日{
+    font-size: 20px;
+    width: 250px;
+  }
+
+  #回遊する想い{
+    font-size: 20px;
+    width: 250px;
+  }
+
+  /*正解１０のスタイル編集*/
+  #正解１０{
+    font-size: 45px;
+  }
+
+  /*解説１９のスタイル編集*/
+  #解説１９{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*結果１のスタイル編集*/
+  #結果１{
+    font-size: 50px;
+    width: 290px;
+  }
+
+  /*残念１０のスタイル編集*/
+  #残念１０{
+    font-size: 45px;
+  }
+
+  /*解説２０のスタイル編集*/
+  #解説２０{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*結果２のスタイル編集*/
+  #結果２{
+    font-size: 50px;
+    width: 290px;
+  }
+
+  /*正解数のスタイル編集*/
+  #正解数{
+    font-size: 20px;
+  }
+
+  /*文１１のスタイル編集*/
+  #文１１{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /*文１２のスタイル編集*/
+  #文１２{
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+  }
+
+  /*Twitterのスタイル編集*/
+  #文１３{
+    font-size: 13px;
+    width: 300px;
+  }
+
+  /*文１５のスタイル編集*/
+  #文１５{
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+  }
+
+  /*文１６のスタイル編集*/
+  #文１６{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /*リンクのスタイル編集*/
+  #リンク{
+    font-size: 26px;
+    width: 250px;
+    margin: 10px auto;
+  }
+
+  #twitter{
+    font-size: 18px;
+    padding: 8px 30px;
+    width: 80px;
+  }
+
+  /*タイマーのスタイル編集*/
+  #タイマー{
+    font-size: 40px;
+  }
+
+  #タイマー２{
+    font-size: 40px;
+  }
+
+  #タイマー３{
+    font-size: 40px;
+  }
+
+  #タイマー４{
+    font-size: 40px;
+  }
+
+  #タイマー５{
+    font-size: 40px;
+  }
+
+  #タイマー６{
+    font-size: 40px;
+  }
+
+  #タイマー７{
+    font-size: 40px;
+  }
+
+  #タイマー８{
+    font-size: 40px;
+  }
+
+  #タイマー９{
+    font-size: 40px;
+  }
+
+  #copy{
+    font-size: 18px;
+    width: 80px;
+  }
+}

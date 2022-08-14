@@ -1,0 +1,636 @@
+/*まず最初はサイト全体の背景色を決めるところから*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');  /*書式を導入*/
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  margin:0;
+  background-color: rgb(250, 234, 237);
+}
+
+/*ここまでがボディ全体の部分のスタイル　ここからは作品の紹介の編集　まずはタイトルから*/
+
+.百合漫画作品紹介の編集部分{
+  padding-right: 400px;
+  padding-left: 400px;
+  text-align: justify;
+}
+
+.百合漫画作品紹介の編集部分 h1{
+  font-size: 35px;
+  margin-top: 600px;
+  margin-bottom: 0px;
+  padding-top: 60px;
+}
+
+/*ここまでがタイトルのデザイン*/
+/*この部分はこのサイトのタイトルのアニメーション編集部分*/
+
+.タイトル{
+  font-size: 70px;
+  color:rgb(245, 143, 160);
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 0px;
+  display: block;
+  position: relative;
+  animation: anime1 2s ease;
+}
+
+.見出し{
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  animation: anime1 3.5s ease;
+}
+
+@keyframes anime1{
+  0%{
+    opacity: 0;
+    top: 50px;
+  }
+  100%{
+    opacity: 1;
+    top: 0;
+  }
+}
+
+/*ここまでがアニメーションの編集部分　ここからは作品紹介のスタイル編集*/
+
+.百合漫画作品紹介の編集部分 p{
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  line-height: 1.8;
+}
+
+/*ここまでが作品紹介のスタイル編集　ここからは見出しのアニメーション*/
+
+.百合漫画作品紹介の編集部分 h2{
+  font-size: 25px;
+  margin-top: 100px;
+  margin-right: 0;
+  margin-left: 0;
+  display: block;
+  position: relative;
+  animation: anime1 3.5s ease;
+}
+
+
+/*ここまでが見出しのアニメーション　ここからは作品の目次の編集　まずは１ページ目のデザイン*/
+
+.作品の目次の編集部分１ h1{
+  text-align: center;
+  font-size: 85px;
+  margin-top: 750px;
+  color: rgb(245, 143, 160);
+}
+
+.作品の目次の編集部分１ ul{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 350px;
+  background-color: pink;
+  line-height: 2.5;
+  display: flex;
+  height: 675px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.作品の目次の編集部分１ li{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*ここまでが１ページ目の作品の目次の編集部分のデザイン*/
+/*ここからは作品の目次の編集部分のアニメーション編集*/
+
+.作品の目次の編集部分１{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+}
+
+.作品の目次の編集部分１.scrollin{
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+/*ここまでが作品の目次の１ページ目のアニメ―ション編集部分　ここからは作品の目次の２ページ目・３ページ目のデザイン*/
+
+.作品の目次の編集部分２ h1{
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 85px;
+  color: rgb(245, 143, 160);
+}
+
+.作品の目次の編集部分２ ul{
+  margin-top: 0px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 350px;
+  background-color: pink;
+  line-height: 2.5;
+  display: flex;
+  height: 675px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.作品の目次の編集部分２ li{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*ここまでが２ページ目以降のデザイン　ここからは２ページ目以降のアニメーション編集部分*/
+
+.作品の目次の編集部分２{
+  display: block;
+  position: relative;
+  animation: anime1 2s ease;
+}
+
+/*ここまでが２ページ目以降のアニメーション編集部分　ここからは作品のアニメーション編集部分*/
+/*この部分は作品の横の紹介文の編集部分*/
+.detail{
+  display: flex;
+}
+
+.detail p{
+  font-size: 35px;
+  padding-left: 20px;
+}
+/*ここまでが詳細部分*/
+
+.citrus{
+  opacity: 0;  /*透明状態（１なら無透明状態）*/
+  transform: translate(0,50px);  /*X軸は正数の時は右方向に行き、Y軸は正数の時は下方向に行く*/
+  transition: all 1.5s;  /*スクロールインするまでの時間*/
+}
+
+.citrus.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+}
+
+.citrus＋{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+}
+
+.citrus＋.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+}
+
+.小百合{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+}
+
+.小百合.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+}
+
+.メル{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+}
+
+.メル.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+}
+
+.ふうふ{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+  margin-bottom: 350px;
+}
+
+.ふうふ.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+  margin-bottom: 350px;
+}
+
+/*ここまでが１ページ目　ここからは２ページ目*/
+
+.カルテ{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+}
+
+.カルテ.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+}
+
+.小柴{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+}
+
+.小柴.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+}
+
+.ゆめぐり{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+}
+
+.ゆめぐり.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+}
+
+.フラグタイム{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+}
+
+.フラグタイム.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+}
+
+.連理{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+  margin-bottom: 350px;
+}
+
+.連理.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+  margin-bottom: 350px;
+}
+
+/*ここまでが２ページ目　ここからは３ページ目*/
+
+.ゆり{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+}
+
+.ゆり.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+}
+
+.ゆり２{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+}
+
+.ゆり２.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+}
+
+.片想い{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+}
+
+.片想い.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+}
+
+.好き{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+}
+
+.好き.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+}
+
+.百合{
+  opacity: 0;
+  transform: translate(0,50px);
+  transition: all 1.5s;
+  margin-bottom: 350px;
+}
+
+.百合.scrollin{
+  opacity: 1;
+  transform: translate(0,0px);
+  margin-bottom: 350px;
+}
+
+/*ここまでが作品の目次の編集部分のアニメーション編集　次は３ページ目の最後の部分*/
+
+.終わりに{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 25px;
+  text-align: center;
+}
+
+/*ここまでが３ページ目の最後の部分*/
+/*そしてここまでが作品の目次の編集　ここからはリンクの編集*/
+
+.リンクの色を変える{
+  color:rgb(0, 110, 255);
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.2s;
+}
+
+.リンクの色を変える:hover{
+  font-size: 28px;
+  opacity: 0.4;
+}
+
+.さらにリンクの色を変える{
+  color:rgb(0,110,255);
+  font-size: 35px;
+  transition: 0.2s;
+}
+
+.さらにリンクの色を変える:hover{
+  font-size: 43px;
+  opacity: 0.4;
+}
+
+.やがてリンクの色を変える{
+  color: rgb(0,0,0);
+  text-decoration: none;
+  font-size: 30px;
+  transition: 0.2s;
+}
+
+.やがてリンクの色を変える:hover{
+  opacity: 0.3;
+}
+
+.そしてリンクの色を変える{
+  color: rgb(0,0,0);
+  text-decoration: none;
+  font-size: 30px;
+  transition: 0.2s;
+}
+
+.そしてリンクの色を変える:hover{
+  opacity: 0.3;
+}
+
+@keyframes anime3{
+  0%{
+    opacity: 1;
+    padding-left: 35px;
+  }
+  100%{
+    opacity: 0.3;
+    padding-left: 0;
+  }
+}
+
+@keyframes anime4{
+  0%{
+    opacity: 1;
+    padding-right: 35px;
+  }
+  100%{
+    opacity: 0.3;
+    padding-right: 0;
+  }
+}
+
+.リンク１{
+  justify-content: space-between;
+  color: rgb(245, 143, 160);
+  text-decoration: none;
+  font-size: 55px;
+}
+
+.リンク１:hover{
+  animation: anime3 0.8s infinite;
+}
+
+.リンク２{
+  justify-content: space-between;
+  color: rgb(245, 143, 160);
+  text-decoration: none;
+  font-size: 55px;
+}
+
+.リンク２:hover{
+  animation: anime4 0.8s infinite;
+}
+
+.特別なリンク１{
+  color: rgb(245, 143, 160);
+  text-decoration: none;
+  font-size: 55px;
+}
+
+.特別なリンク１:hover{
+  animation: anime3 0.8s infinite;
+}
+
+.特別なリンク２{
+  color: rgb(245, 143, 160);
+  text-decoration: none;
+  font-size: 55px;
+  transition: 0.5s;
+}
+
+.特別なリンク２:hover{
+  animation: anime4 0.8s infinite;
+}
+
+.特別なリスト１{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.特別なリスト２{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+/*ここまでがリンクの編集　ここからはフッター部分の編集　まずは１ページ目から*/
+
+.フッター部分の編集１{
+  background-color: rgb(245, 199, 206);
+  height: 170px;
+}
+
+.フッター部分の編集１ ul{
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-top: 55px;
+}
+
+.フッター部分の編集１ li{
+  list-style-type: none;
+  width: 400px;
+}
+
+.フッター部分の編集１ a{
+  color: rgb(231, 125, 142);
+}
+
+.リストの編集{
+  font-size: 30px;
+  color: rgb(231, 125, 142);
+}
+
+.fotazn{
+  text-align: right;
+  font-size: 22px;
+  padding-right: 30px;
+}
+
+/*ここまでが１ページ目のフッター部分　ここからは２ページ目のフッター部分*/
+
+.フッター部分の編集２{
+  background-color: rgb(245, 199, 206);
+  height: 170px;
+}
+
+.フッター部分の編集２ ul{
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-top: 55px;
+}
+
+.フッター部分の編集２ li{
+  list-style-type: none;
+  width: 400px;
+}
+
+.フッター部分の編集２ a{
+  color: rgb(231, 125, 142);
+}
+
+/*ここまでが２ページ目のフッター部分　ここからは３ページ目のページ表示部分*/
+
+.ページ表示の編集{
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  background-color: rgb(245, 199, 206);
+}
+
+.ページ表示の編集 ul{
+  display: flex;
+}
+
+.ページ表示の編集 li{
+  list-style-type: none;
+  width: 380px;
+}
+
+.ページ表示の編集 a{
+  color: rgb(231, 125, 142);
+}
+
+/*ここまでが３ページ目のページ表示部分　ここからは３ページ目のフッター部分*/
+
+.フッター大部分の編集{
+  display:flex;
+  margin-right: 50px;
+}
+  
+.フッター部分の編集３{
+  background-color:rgb(245, 199, 206);
+}
+  
+.アイコン画像の編集 img{
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+  
+.情報その１ h1{
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+  
+.情報その１ p{
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+  
+.情報その２{
+  margin:0;
+  font-size: 25px;
+}
+
+/*ここまでが３ページ目のフッター部分*/
+
+#シェア{
+  justify-content: center;
+}
+
+#twitter {
+  background-color: #008DDE;
+  box-shadow: 0 10px 0 #0078BD;
+  position: relative;
+  display: flex;
+  font-size: 30px;
+  width: 120px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 14px 60px;
+}
+#twitter:active {
+  top: 5px;
+	box-shadow: 0 2px 0 #0078BD;
+}
+#twitter:hover {
+  background-color: #1397D8;
+}

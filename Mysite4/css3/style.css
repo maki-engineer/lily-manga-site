@@ -1,0 +1,2181 @@
+/*ここでパソコンで見た際のスタイルを編集していく　まずは全体の余白を0に設定しておく*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');  /*書式を導入*/
+
+/*アニメーション設定*/
+@keyframes anime1{
+  0%{
+    opacity: 0;
+    top: 50px;
+  }
+  100%{
+    opacity: 1;
+    top: 0;
+  }
+}
+
+/*要素を隠す設定*/
+.hidden{
+  display: none;  /* display: none; とすることで、要素を消すことが出来る！ もし要素を残しておきたい場合は、 opacity: 0; にすればOK!*/
+}
+
+/*ページ全体のスタイル編集*/
+body{
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: rgb(250, 234, 237);
+}
+
+/* １ページ目の部分*/
+/*タイトルのスタイル編集*/
+#タイトル{
+  font-size: 55px;
+  text-align: center;
+  color:rgb(245, 143, 160);
+  position: relative;
+  animation: anime1 2s ease;
+}
+
+/*見出しのスタイル編集*/
+#見出し{
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  animation: anime1 2s ease;
+}
+
+/*ボタンのスタイル編集*/
+#ボタン{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 100px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+  position: relative;
+  animation: anime1 2s ease;
+}
+
+#ボタン:hover{
+  opacity: 0.7;
+}
+
+#ボタン:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 108px;
+}
+
+/*２ページ目の部分*/
+/*問題１のスタイル編集*/
+#問題１{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*文１のスタイル編集*/
+#文１{
+  font-size: 35px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*選択肢１のスタイル編集*/
+#選択肢１{
+  display: flex;
+  justify-content: center;
+}
+
+#アフロ{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#アフロ:hover{
+  opacity: 0.7;
+}
+
+#アフロ:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#ひげろー{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#ひげろー:hover{
+  opacity: 0.7;
+}
+
+#ひげろー:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*選択肢２のスタイル編集*/
+#選択肢２{
+  display: flex;
+  justify-content: center;
+}
+
+#ひげぞー{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#ひげぞー:hover{
+  opacity: 0.7;
+}
+
+#ひげぞー:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#ひげきんぐ{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#ひげきんぐ:hover{
+  opacity: 0.7;
+}
+
+#ひげきんぐ:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*正解１のスタイル編集*/
+#正解１{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*写真１のスタイル編集*/
+.画像１{
+  display: flex;
+  justify-content: center;
+}
+
+#写真１{
+  width: 800px;
+  height: 620px;
+}
+
+/*解説１のスタイル編集*/
+#解説１{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題１のスタイル編集*/
+#次の問題１{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題１:hover{
+  opacity: 0.7;
+}
+
+#次の問題１:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*残念１のスタイル編集*/
+#残念１{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*写真２のスタイル編集*/
+.画像２{
+  display: flex;
+  justify-content: center;
+}
+
+#写真２{
+  width: 800px;
+  height: 620px;
+}
+
+/*解説２のスタイル編集*/
+#解説２{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題２のスタイル編集*/
+#次の問題２{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題２:hover{
+  opacity: 0.7;
+}
+
+#次の問題２:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*問題２のスタイル編集*/
+#問題２{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*文２のスタイル編集*/
+#文２{
+  font-size: 35px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*選択肢３のスタイル編集*/
+#選択肢３{
+  display: flex;
+  justify-content: center;
+}
+
+#輝光{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 700px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#輝光:hover{
+  opacity: 0.7;
+}
+
+#輝光:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#瞬奇跡{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 700px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#瞬奇跡:hover{
+  opacity: 0.7;
+}
+
+#瞬奇跡:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*選択肢４のスタイル編集*/
+#選択肢４{
+  display: flex;
+  justify-content: center;
+}
+
+#光奇跡{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 700px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#光奇跡:hover{
+  opacity: 0.7;
+}
+
+#光奇跡:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#輝奇跡{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 700px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#輝奇跡:hover{
+  opacity: 0.7;
+}
+
+#輝奇跡:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*正解２のスタイル編集*/
+#正解２{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*写真３のスタイル編集*/
+.画像３{
+  display: flex;
+  justify-content: center;
+}
+
+#写真３{
+  width: 600px;
+  height: 620px;
+}
+
+/*解説３のスタイル編集*/
+#解説３{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題３のスタイル編集*/
+#次の問題３{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題３:hover{
+  opacity: 0.7;
+}
+
+#次の問題３:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*残念２のスタイル編集*/
+#残念２{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*写真４のスタイル編集*/
+.画像４{
+  display: flex;
+  justify-content: center;
+}
+
+#写真４{
+  width: 600px;
+  height: 620px;
+}
+
+/*解説４のスタイル編集*/
+#解説４{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題４のスタイル編集*/
+#次の問題４{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題４:hover{
+  opacity: 0.7;
+}
+
+#次の問題４:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*問題３のスタイル編集*/
+#問題３{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*文３のスタイル編集*/
+#文３{
+  font-size: 35px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*選択肢５のスタイル編集*/
+#選択肢５{
+  display: flex;
+  justify-content: center;
+}
+
+#トゥンク{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#トゥンク:hover{
+  opacity: 0.7;
+}
+
+#トゥンク:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#トクン{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#トクン:hover{
+  opacity: 0.7;
+}
+
+#トクン:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*選択肢６のスタイル編集*/
+#選択肢６{
+  display: flex;
+  justify-content: center;
+}
+
+#ドキ{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#ドキ:hover{
+  opacity: 0.7;
+}
+
+#ドキ:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#ズキューン{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#ズキューン:hover{
+  opacity: 0.7;
+}
+
+#ズキューン:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*正解３のスタイル編集*/
+#正解３{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*解説５のスタイル編集*/
+#解説５{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題５のスタイル編集*/
+#次の問題５{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題５:hover{
+  opacity: 0.7;
+}
+
+#次の問題５:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*残念３のスタイル編集*/
+#残念３{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*解説６のスタイル編集*/
+#解説６{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題６のスタイル編集*/
+#次の問題６{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題６:hover{
+  opacity: 0.7;
+}
+
+#次の問題６:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*問題４のスタイル編集*/
+#問題４{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*文４のスタイル編集*/
+#文４{
+  font-size: 35px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*選択肢７のスタイル編集*/
+#選択肢７{
+  display: flex;
+  justify-content: center;
+}
+
+#マス７{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 900px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#マス７:hover{
+  opacity: 0.7;
+}
+
+#マス７:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#休み{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 900px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#休み:hover{
+  opacity: 0.7;
+}
+
+#休み:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*選択肢８のスタイル編集*/
+#選択肢８{
+  display: flex;
+  justify-content: center;
+}
+
+#マス５{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 900px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#マス５:hover{
+  opacity: 0.7;
+}
+
+#マス５:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#もう一回{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 900px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#もう一回:hover{
+  opacity: 0.7;
+}
+
+#もう一回:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*正解４のスタイル編集*/
+#正解４{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*写真５のスタイル編集*/
+.画像５{
+  display: flex;
+  justify-content: center;
+}
+
+#写真５{
+  width: 700px;
+  height: 620px;
+}
+
+/*解説７のスタイル編集*/
+#解説７{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題７のスタイル編集*/
+#次の問題７{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題７:hover{
+  opacity: 0.7;
+}
+
+#次の問題７:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*残念４のスタイル編集*/
+#残念４{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*写真６のスタイル編集*/
+.画像６{
+  display: flex;
+  justify-content: center;
+}
+
+#写真６{
+  width: 700px;
+  height: 620px;
+}
+
+/*解説８のスタイル編集*/
+#解説８{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題８のスタイル編集*/
+#次の問題８{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題８:hover{
+  opacity: 0.7;
+}
+
+#次の問題８:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*問題５のスタイル編集*/
+#問題５{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*文５のスタイル編集*/
+#文５{
+  font-size: 35px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*選択肢９のスタイル編集*/
+.選択肢９{
+  display: flex;
+  justify-content: center;
+}
+
+#こより{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#こより:hover{
+  opacity: 0.7;
+}
+
+#こより:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#かのん{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#かのん:hover{
+  opacity: 0.7;
+}
+
+#かのん:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*正解５のスタイル編集*/
+#正解５{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*解説９のスタイル編集*/
+#解説９{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題９のスタイル編集*/
+#次の問題９{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題９:hover{
+  opacity: 0.7;
+}
+
+#次の問題９:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*残念５のスタイル編集*/
+#残念５{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*解説１０のスタイル編集*/
+#解説１０{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題１０のスタイル編集*/
+#次の問題１０{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題１０:hover{
+  opacity: 0.7;
+}
+
+#次の問題１０:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*問題６のスタイル編集*/
+#問題６{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*文６のスタイル編集*/
+#文６{
+  font-size: 35px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*選択肢１０のスタイル編集*/
+.選択肢１０{
+  display: flex;
+  justify-content: center;
+}
+
+#十月{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#十月:hover{
+  opacity: 0.7;
+}
+
+#十月:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#十一月{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#十一月:hover{
+  opacity: 0.7;
+}
+
+#十一月:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*選択肢１１のスタイル編集*/
+.選択肢１１{
+  display: flex;
+  justify-content: center;
+}
+
+#九月{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#九月:hover{
+  opacity: 0.7;
+}
+
+#九月:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#二月{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#二月:hover{
+  opacity: 0.7;
+}
+
+#二月:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*正解６のスタイル編集*/
+#正解６{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*写真７のスタイル編集*/
+.画像７{
+  display: flex;
+  justify-content: center;
+}
+
+#写真７{
+  width: 1000px;
+  height: 400px;
+}
+
+/*解説１１のスタイル編集*/
+#解説１１{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題１１のスタイル編集*/
+#次の問題１１{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題１１:hover{
+  opacity: 0.7;
+}
+
+#次の問題１１:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*残念６のスタイル編集*/
+#残念６{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*写真８のスタイル編集*/
+.画像８{
+  display: flex;
+  justify-content: center;
+}
+
+#写真８{
+  width: 1000px;
+  height: 400px;
+}
+
+/*解説１２のスタイル編集*/
+#解説１２{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題１２のスタイル編集*/
+#次の問題１２{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題１２:hover{
+  opacity: 0.7;
+}
+
+#次の問題１２:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*問題７のスタイル編集*/
+#問題７{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*文７のスタイル編集*/
+#文７{
+  font-size: 35px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*選択肢１２のスタイル編集*/
+.選択肢１２{
+  display: flex;
+  justify-content: center;
+}
+
+#五十{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#五十:hover{
+  opacity: 0.7;
+}
+
+#五十:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#四十八{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#四十八:hover{
+  opacity: 0.7;
+}
+
+#四十八:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*選択肢１３のスタイル編集*/
+.選択肢１３{
+  display: flex;
+  justify-content: center;
+}
+
+#五十二{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#五十二:hover{
+  opacity: 0.7;
+}
+
+#五十二:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#五十一{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#五十一:hover{
+  opacity: 0.7;
+}
+
+#五十一:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*正解７のスタイル編集*/
+#正解７{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*写真９のスタイル編集*/
+.画像９{
+  display: flex;
+  justify-content: center;
+}
+
+#写真９{
+  width: 650px;
+  height: 650px;
+}
+
+/*解説１３のスタイル編集*/
+#解説１３{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題１３のスタイル編集*/
+#次の問題１３{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題１３:hover{
+  opacity: 0.7;
+}
+
+#次の問題１３:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*残念７のスタイル編集*/
+#残念７{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*写真１０のスタイル編集*/
+.画像１０{
+  display: flex;
+  justify-content: center;
+}
+
+#写真１０{
+  width: 650px;
+  height: 650px;
+}
+
+/*解説１４のスタイル編集*/
+#解説１４{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題１４のスタイル編集*/
+#次の問題１４{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題１４:hover{
+  opacity: 0.7;
+}
+
+#次の問題１４:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*問題８のスタイル編集*/
+#問題８{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*文８のスタイル編集*/
+#文８{
+  font-size: 35px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*選択肢１４のスタイル編集*/
+.選択肢１４{
+  display: flex;
+  justify-content: center;
+}
+
+#六{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#六:hover{
+  opacity: 0.7;
+}
+
+#六:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#七{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#七:hover{
+  opacity: 0.7;
+}
+
+#七:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*選択肢１５のスタイル編集*/
+.選択肢１５{
+  display: flex;
+  justify-content: center;
+}
+
+#八{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#八:hover{
+  opacity: 0.7;
+}
+
+#八:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#十{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#十:hover{
+  opacity: 0.7;
+}
+
+#十:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*正解８のスタイル編集*/
+#正解８{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*写真１１のスタイル編集*/
+.画像１１{
+  display: flex;
+  justify-content: center;
+}
+
+#写真１１{
+  width: 650px;
+  height: 650px;
+}
+
+/*解説１５のスタイル編集*/
+#解説１５{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題１５のスタイル編集*/
+#次の問題１５{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題１５:hover{
+  opacity: 0.7;
+}
+
+#次の問題１５:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*残念８のスタイル編集*/
+#残念８{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*写真１３のスタイル編集*/
+.画像１２{
+  display: flex;
+  justify-content: center;
+}
+
+#写真１２{
+  width: 650px;
+  height: 650px;
+}
+
+/*解説１６のスタイル編集*/
+#解説１６{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題１６のスタイル編集*/
+#次の問題１６{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題１６:hover{
+  opacity: 0.7;
+}
+
+#次の問題１６:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*問題９のスタイル編集*/
+#問題９{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*文９のスタイル編集*/
+#文９{
+  font-size: 35px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*選択肢１６のスタイル編集*/
+.選択肢１６{
+  display: flex;
+  justify-content: center;
+}
+
+#髪飾り{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#髪飾り:hover{
+  opacity: 0.7;
+}
+
+#髪飾り:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#ケーキ{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#ケーキ:hover{
+  opacity: 0.7;
+}
+
+#ケーキ:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*選択肢１７のスタイル編集*/
+.選択肢１７{
+  display: flex;
+  justify-content: center;
+}
+
+#プリン{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#プリン:hover{
+  opacity: 0.7;
+}
+
+#プリン:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#クッキー{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#クッキー:hover{
+  opacity: 0.7;
+}
+
+#クッキー:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*正解９のスタイル編集*/
+#正解９{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*解説１７のスタイル編集*/
+#解説１７{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題１７のスタイル編集*/
+#次の問題１７{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題１７:hover{
+  opacity: 0.7;
+}
+
+#次の問題１７:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*残念９のスタイル編集*/
+#残念９{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*解説１８のスタイル編集*/
+#解説１８{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*次の問題１８のスタイル編集*/
+#次の問題１８{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#次の問題１８:hover{
+  opacity: 0.7;
+}
+
+#次の問題１８:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*問題１０のスタイル編集*/
+#問題１０{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*文１０のスタイル編集*/
+#文１０{
+  font-size: 35px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*選択肢１８のスタイル編集*/
+.選択肢１８{
+  display: flex;
+  justify-content: center;
+}
+
+#上田{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 600px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#上田:hover{
+  opacity: 0.7;
+}
+
+#上田:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#指出{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 600px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#指出:hover{
+  opacity: 0.7;
+}
+
+#指出:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*選択肢１９のスタイル編集*/
+.選択肢１９{
+  display: flex;
+  justify-content: center;
+}
+
+#山田{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 600px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#山田:hover{
+  opacity: 0.7;
+}
+
+#山田:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+#中川{
+  font-size: 80px;
+  background-color: rgb(245, 199, 206);
+  color: rgb(104, 14, 31);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 600px;
+  text-align: center;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#中川:hover{
+  opacity: 0.7;
+}
+
+#中川:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*正解１０のスタイル編集*/
+#正解１０{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*解説１９のスタイル編集*/
+#解説１９{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*結果１のスタイル編集*/
+#結果１{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#結果１:hover{
+  opacity: 0.7;
+}
+
+#結果１:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*残念１０のスタイル編集*/
+#残念１０{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*解説２０のスタイル編集*/
+#解説２０{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*結果２のスタイル編集*/
+#結果２{
+  font-size: 80px;
+  color: rgb(202, 97, 114);
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:rgb(245, 199, 206);
+  box-shadow: 0 10px 0 rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#結果２:hover{
+  opacity: 0.7;
+}
+
+#結果２:active{
+  box-shadow: 0 2px 0 rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+  margin-top: 58px;
+}
+
+/*正解数のスタイル編集*/
+#正解数{
+  font-size: 70px;
+  text-align: center;
+}
+
+/*文１１のスタイル編集*/
+#文１１{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/*文１２のスタイル編集*/
+#文１２{
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+/*Twitterのスタイル編集*/
+#文１３{
+  font-size: 25px;
+  border-color: black;
+  border: solid 2px;
+  width: 800px;
+  display: block;
+  margin: 10px auto;
+}
+
+/*文１５のスタイル編集*/
+#文１５{
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+/*文１６のスタイル編集*/
+#文１６{
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/*リンクのスタイル編集*/
+.リンク中身{
+  text-decoration: none;
+  color: rgb(202, 97, 114);
+}
+
+#リンク{
+  background-color:rgb(245, 199, 206);
+  text-align: center;
+  font-size: 80px;
+  width: 800px;
+  margin: 40px auto;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(221, 175, 182);  /*これを使うことによって要素に影を付けることが出来る*/
+  user-select: none;  /*これを使うことによって、要素をダブルクリックしたときの変な感じをなくすことが出来る*/
+}
+
+#リンク:hover{
+  opacity: 0.7;
+}
+
+#リンク:active{
+  box-shadow: 2px 2px 2px rgb(221, 175, 182);  /*影の位置をクリックしたらずらすようにしている*/
+}
+
+/*SNSボタンのスタイル編集*/
+#シェア{
+  justify-content: center;
+}
+
+#twitter {
+  background-color: #008DDE;
+  box-shadow: 0 10px 0 #0078BD;
+  position: relative;
+  display: flex;
+  font-size: 30px;
+  width: 120px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 14px 60px;
+}
+#twitter:active {
+  top: 5px;
+	box-shadow: 0 2px 0 #0078BD;
+}
+#twitter:hover {
+  background-color: #1397D8;
+}
+
+/*タイマーのスタイル編集*/
+#タイマー{
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#タイマー２{
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#タイマー３{
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#タイマー４{
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#タイマー５{
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#タイマー６{
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#タイマー７{
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#タイマー８{
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#タイマー９{
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#タイマー１０{
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#copy{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: rgb(173, 172, 172);
+  width: 180px;
+  border-radius: 8px;
+  box-shadow: 0 10px 0 rgb(133, 133, 133);
+  position: relative;
+  font-weight: bold;
+  user-select: none;
+  cursor: pointer;
+  margin: 15px auto;
+}
+
+#copy:active{
+  top: 5px;
+  box-shadow: 0 2px 0 rgb(133, 133, 133);
+}
+
+#copy:hover{
+  opacity: 0.8;
+}

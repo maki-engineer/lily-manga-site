@@ -1,0 +1,305 @@
+@media (min-width: 360px) and (max-width: 414px) {
+  /*まずは作品の紹介の編集　まずはタイトルから*/
+
+  .百合漫画作品紹介の編集部分{
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  
+  .百合漫画作品紹介の編集部分 h1{
+    font-size: 24px;
+    margin-top: 300px;
+  }
+  
+  .タイトル{
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .見出し{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .百合漫画作品紹介の編集部分 h2{
+    font-size: 18px;
+  }
+
+  /*ここからは作品紹介の詳細の部分*/
+  .detail{
+    font-size: 24px;
+  }
+  /*ここまでが作品紹介の詳細の部分*/
+
+  .百合漫画作品紹介の編集部分 p{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    line-height: 1.8;
+  }
+  
+  /*ここまでがタイトルのデザイン　ここからは目次の編集*/
+
+  .作品の目次の編集部分１ h1{
+    font-size: 30px;
+    margin-top: 350px;
+  }
+
+  .作品の目次の編集部分１ ul{
+    margin-bottom: 0;
+    padding-left: 25px;
+    height: 550px;
+  }
+
+  .作品の目次の編集部分２ h1{
+    font-size: 30px;
+  }
+
+  .作品の目次の編集部分２ ul{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 25px;
+    height: 550px;
+  }
+
+  /*ここまでが１ページ目の目次の編集　ここからは目次のリスト編集*/
+
+  .やがてリンクの色を変える{
+    color: rgb(0,0,0);
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.2s;
+  }
+  
+  .やがてリンクの色を変える:hover{
+    opacity: 0.3;
+  }
+
+  /*ここまでが目次のリスト編集　ここからは目次のページ移動のスタイル編集*/
+
+  @keyframes anime3{
+    0%{
+      padding-left: 25px;
+    }
+    100%{
+      opacity: 0.3;
+      padding-left: 0;
+    }
+  }
+  
+  @keyframes anime4{
+    0%{
+      padding-right: 25px;
+    }
+    100%{
+      opacity: 0.3;
+    }
+  }
+
+  .リンク１{
+    font-size: 25px;
+  }
+
+  .リンク２{
+    font-size: 25px;
+  }
+
+  .特別なリンク１{
+    font-size: 25px;
+  }
+
+  .特別なリンク２{
+    font-size: 25px;
+  }
+
+  .特別なリスト２{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  /*ここまでが目次のページ移動のスタイル編集　ここからはリンクの編集部分*/
+
+  .さらにリンクの色を変える{
+    font-size: 24px;
+  }
+
+  .リンクの色を変える{
+    font-size: 22px;
+  }
+
+  /*ここまでがリンクの編集部分*/
+
+  /*ここからは作品の画像の編集部分*/
+  .やが君 img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .はにがれ img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .きみ恋 img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .ささ恋 img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .月綺麗 img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .ゆるゆり img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .大室家 img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .のんのんびより img{
+    width: 180px;
+    height: 115px;
+  }
+
+  .わたてん img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .徒然日和 img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .とどつま img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .加瀬さん img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .あだしま img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .とど糸 img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .ハピシュガ img{
+    width: 180px;
+    height: 250px;
+  }
+  /*ここまでが作品の画像の編集部分*/
+
+  /*ここからはフッター部分の編集*/
+  .フッター部分の編集１{
+    height: 85px;
+  }
+
+  .フッター部分の編集１ ul{
+    padding-top: 20px;
+  }
+
+  .リストの編集{
+    font-size: 20px;
+  }
+
+  .そしてリンクの色を変える{
+    font-size: 20px;
+  }
+
+  .fotazn{
+    font-size: 12px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+
+  .フッター部分の編集２{
+    height: 85px;
+  }
+
+  .フッター部分の編集２ ul{
+    padding-top: 20px;
+  }
+
+  .フッター部分の編集３{
+    padding-bottom: 15px;
+  }
+
+  .終わりに{
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .フッター大部分の編集{
+    display: block;
+    margin: 0;
+  }
+
+  .情報その１ h1{
+    font-size: 30px;
+  }
+
+  .情報その１ p{
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+
+  .情報その２{
+    font-size: 20px;
+  }
+
+  .アイコン画像の編集 img{
+    margin-left: 80px;
+    margin-bottom: 0;
+  }
+
+  .ページ表示の編集{
+    padding-bottom: 0;
+  }
+
+  .ページ表示の編集 li{
+    width: 120px;
+  }
+
+  .ページ表示の編集 ul{
+    padding-left: 0;
+    padding-top: 20px;
+    margin: 0;
+  }
+
+  #twitter{
+    font-size: 18px;
+    padding: 8px 30px;
+    width: 80px;
+  }
+
+  .ハピシュガ{
+    margin-bottom: 100px;
+  }
+
+  .ハピシュガ.scrollin{
+    margin-bottom: 100px;
+  }
+}

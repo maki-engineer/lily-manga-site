@@ -1,0 +1,36 @@
+/*ここもレスポンシブデザイン部分　ここでは主にタブレット・ノートパソコン用のスタイル編集をしていく*/
+
+@media (min-width: 735px) and (max-width: 1068px){
+  /*まずはボディ部分のスタイル編集*/
+  .リストの編集 ul{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  /*ここまでがボディ部分のスタイル編集　ここからはフッター部分のスタイル編集*/
+  .フッター大部分の編集{
+    margin-right: 20px;
+  }
+
+  .アイコン画像の編集 img{
+    margin-top: 80px;
+  }
+
+  .情報その１ h1{
+    font-size: 45px;
+  }
+
+  .情報その１ p{
+    margin-bottom: 10px;
+    font-size: 28px;
+    text-align: justify;
+  }
+
+  .情報その２{
+    padding-bottom: 10px;
+    font-size: 37px;
+  }
+
+  .リンクの編集部分{
+    font-size: 38px;
+  }
+}
